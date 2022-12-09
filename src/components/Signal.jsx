@@ -1,6 +1,8 @@
 import React from "react";
 
+
 const Signal = () => {
+  
   const signalInfo = [
     {
       title: "GBP/JPY",
@@ -32,9 +34,11 @@ const Signal = () => {
     },
   ];
   return (
-    <div className="w-[90%] min-h-[100px] flex items-center justify-center my-[3rem] border-4  m-auto absolute top-[80%] bg-white">
+    <div className="lg:w-[90%] w-auto min-h-[100px] lg:flex grid items-center justify-center my-[3rem] border-4  m-auto left-2 z-30 bg-white">
       <div>
-        <h1 className="text-black font-bold text-2xl p-4 shadow">Free Signals For Today</h1>
+        <h1 className="text-black font-bold text-2xl p-4 shadow">
+          Free Signals For Today
+        </h1>
       </div>
       {/* free signals */}
       {signalInfo.map((signal) => {

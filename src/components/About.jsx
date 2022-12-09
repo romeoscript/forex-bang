@@ -5,9 +5,9 @@ import banner2 from "../assets/Rectangle 17.png";
 
 const About = () => {
   return (
-    <div className="flex p-[5rem]">
+    <div className="md:flex md:p-[5rem] p-4 block">
       <div className=" basis-[50%]">
-        <aside className="relative w-[60%]">
+        <aside className="relative md:w-[60%] w-full">
           <img src={about} alt="" className="w-[80%] object-cover m-auto"/>
           <div className="absolute bottom-8">
             <img src={banner} alt="" className="z-30"/>
@@ -19,7 +19,7 @@ const About = () => {
           </div>
         </aside>
       </div>
-      <div className="text-[#078405] basis-[50%]">
+      <div className="text-[#078405] basis-[50%] md:m-0 mt-8">
         <h1 className="text-3xl font-bold mb-6">Who we Are</h1>
         <p className="font-bold my-2" >
           Lorem ipsum dolor sit amet consectetur. Vel felis nunc risus sit

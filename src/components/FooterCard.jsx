@@ -24,7 +24,7 @@ const FooterCard = () => {
     },
   ];
   return (
-    <div className="flex justify-around items-center p-4">
+    <div className="flex justify-around items-center p-4 flex-wrap">
       {cardData.map((item) => {
         return (
           <div
